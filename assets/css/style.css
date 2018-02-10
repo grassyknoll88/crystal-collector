@@ -1,0 +1,53 @@
+body {
+    background: url(../images/110567-OOK9DT-429.jpg) top left repeat;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 70px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    opacity: .95;
+
+}
+
+.box-style {
+    background: whitesmoke;
+    padding: 40px;
+    margin-top: 30px;
+    opacity: .85;
+
+}
+
+
+p {
+    font-family: 'Bangers', cursive;
+    font-size: 24px;
+    color:#525A5C;
+    margin-top: 25px;
+}
+
+#result-message {
+    font-family: 'Bangers', cursive;
+    font-size: 42px;
+    color: #8C0019;
+
+}
+
+
+.crystals {
+    width: 125px;
+    height: 175px;
+    display: inline-block;
+    margin: 10px 68px;
+    transition: all .2s ease-in-out;
+}
+
+.crystals:hover {
+    transform: scale(1.2);
+}
+
+
+

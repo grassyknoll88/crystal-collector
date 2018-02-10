@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Nova+Flat" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "assets/css/style.css">
+
+    <title>Crystal Collector</title>
+  </head>
+  <body>
+    <h1>Crystal Collector</h1>
+    <div class="container fluid rounded box-style">
+        <div class="row">
+            <div class="col-md-8">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a cetain amount of points to your total score.</p>
+                <p>You win the game by matching your total score to the random number generated, you lose game by going over the random number.</p>
+                <p>The value of each crystal is hidden until you click on it.</p>
+                <p>Each time the game starts the crystals value will change randomly.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container fluid rounded box-style">
+        <div class="row">
+            <div class="col-md-4">
+                <p>Target Number: <span id="target-number"></span></p> 
+            </div>
+            <div class="col-md-4">
+                <p >Your Total: <span id="user-total"></span></p>
+                <p id="result-message"></p>
+            </div>
+            <div class="col-md-4">
+                <p>Wins: <span id="wins"></span></p>
+                <p>Losses: <span id="losses"></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="container fluid rounded box-style">
+        <div class="row">
+            <div class="col-md-12">
+                    <img src="assets/images/196850013c0d9d64d11bc681ed28d044.png" id="crystal-btn-1" class="crystals">
+                    <img src="assets/images/773c69be2232368a8c01d8769c204161.png" id="crystal-btn-2" class="crystals">
+                    <img src="assets/images/0dbbb0903f00adfe575f66dd2aed0531.png" id="crystal-btn-3" class="crystals">
+                    <img src="assets/images/Oval_Emerald_PNG_Clipart-796 (1).png" id="crystal-btn-4" class="crystals">
+                </div>
+        </div>
+    </div>  
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js" ></script>
+  </body>
+</html>
