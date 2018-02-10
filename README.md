@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+Crystal Collector is a game powered by Javascript, the rules for the game are below.
 
-You can use the [editor on GitHub](https://github.com/grassyknoll88/week-4-game/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/grassyknoll88/week-4-game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You will be given a random number at the start of the game.
+There are four crystals below. By clicking on a crystal you will add a cetain amount of points to your total score.
+You win the game by matching your total score to the random number generated, you lose game by going over the random number.
+The value of each crystal is hidden until you click on it.
+Each time the game starts the crystals value will change randomly.
